@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+</head>
+<body>
+    <div class="container">
+        <div><h1>Nueva Receta</h1></div>
+        <br>
+        <div>
+            <form action='/Recetas/Crear/' method='POST'>
+                <div class='row'>
+                    <label>Nombre receta: <input type="text" name="nom_recepta">
+                </div>
+                <div class='row'>
+                    <label>Ingredientes: &nbsp&nbsp&nbsp&nbsp<input type="text" name="ingredients"></label>
+                </div>
+                <br>
+                <div class='row'>
+                    <input class='btn btn-dark' type="submit" value="Crear receta">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
